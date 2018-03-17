@@ -1,0 +1,69 @@
+.btn{
+    border-radius: 30px;     
+}
+
+.btn-lg{
+    padding: 0.6em 2em;
+}
+
+.btn-primary{
+    background-color: #ee0979;
+    border: 0;
+}
+
+.btn-primary:hover{
+    background-color: #bd0760;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.jumbotron{
+    background-image: url(img/banner.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 8em 2em;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size: 4em;
+    text-shadow: 0 0 15px black;
+}
+
+.jumbotron p{
+    font-size: 2em;
+    text-shadow: 0 0 15px black;
+}
+
+.topics h2{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+.topics img{
+    border-radius: 26%; 
+}
+
+footer{
+    overflow: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#exampleInputNome1{
+    width: 50%;
+}
+
+#exampleInputEmail1{
+    width: 50%;
+}
